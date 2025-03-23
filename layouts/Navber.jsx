@@ -7,7 +7,7 @@ import List from '@/components/List'
 import Button from '@/components/Button'
 export default function Navber() {
   return (
-    <nav className='py-5'>
+    <nav className='py-5 absolute top-0 left-0 w-full'>
         <Container>
             <Flex className='justify-between'>
                 <div>

@@ -9,6 +9,7 @@ const metrophobic = Metrophobic({
 
 export default function List({text,className}) {
   return (
-     <li className={`text-sm text-black font-semibold ${metrophobic.className} ${className}`}>{text}</li>
+     <li className={`text-sm text-black font-semibold cursor-pointer
+ ${metrophobic.className} ${className}`}>{text}</li>
   )
 }
