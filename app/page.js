@@ -1,7 +1,11 @@
-import Image from "next/image";
+import Navber from "@/layouts/Navber";
+
+
+
 
 export default function Home() {
   return (
-    <h1 className="bg-red-500 text-white">This is Next Project</h1>
+    <Navber/>
+   
   );
 }
