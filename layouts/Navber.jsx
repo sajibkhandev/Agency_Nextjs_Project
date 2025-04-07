@@ -18,10 +18,10 @@ export default function Navber() {
                 </div>
                 <Flex className='items-center '>
                     <ul className='flex gap-x-10'>
-                       <List text="About"/>
-                       <List text="Pricing"/>
-                       <List text="Contact Us"/>
-                       <List text="Login"/>
+                       <List type='ture' text="About"/>
+                       <List  text="Pricing"/>
+                       <List  text="Contact Us"/>
+                       <List  text="Login"/>
                        
                     </ul>
                         <Button text='Start free trial' className='ml-10'/>

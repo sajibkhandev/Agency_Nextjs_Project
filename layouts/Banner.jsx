@@ -6,6 +6,8 @@ import BannerImage from '../public/banner.png'
 import ButtonTwo from '@/components/ButtonTwo'
 import { Poppins } from 'next/font/google'
 import Button from '@/components/Button'
+import Icon from '../public/bannerButtonIcon.png'
+
 const poppins = Poppins({
     weight: ['400','500','600','700'],
     subsets: ['latin'],
@@ -20,7 +22,7 @@ export default function Banner() {
         <Container>
             <Flex className='py-[168px]'>
                 <div className='w-1/2'>
-                <ButtonTwo text="v3.1 released. Learn more"/>
+                <ButtonTwo icon={Icon} text="v3.1 released. Learn more"/>
                 <h1 className={`w-[485px] leading-[56px] text-5xl text-black font-bold py-6 ${poppins.className}`}>Your data with real-time analytics</h1>
                 <p className={`w-[490px] text-base text-[#00000080] font-normal ${poppins.className}`}>Harness the potential of Big Data Analytics & Cloud Services and become a data-driven organization with Needle tail</p>
 
